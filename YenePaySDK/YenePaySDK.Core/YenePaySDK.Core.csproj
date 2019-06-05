@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Company>YenePay Financial Technologies P.L.C</Company>
     <Authors>Sisay Getnet</Authors>
     <Description>A dotnet core version of YenePaySdk</Description>
@@ -13,8 +13,11 @@
     <Copyright>Copyright © YenePay Financial Technologies P.L.C</Copyright>
     <Product>YenePay.YenePaySDK.Core</Product>
     <PackageProjectUrl>https://www.yenepay.com</PackageProjectUrl>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <PackageId>YenePay.YenePaySDK.Core</PackageId>
+    <PackageTags>yenepay payment sdk online .net .netcore c#</PackageTags>
+    <PackageReleaseNotes>The official port of yenepay payment sdk for .net core</PackageReleaseNotes>
+    <PackageLicenseExpression>https://github.com/YenePay/yenepay.sdk.dotnet.core/blob/master/LICENSE</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>

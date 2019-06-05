@@ -9,11 +9,11 @@ namespace YenePaySdk
 {
     public class CheckoutHelper
     {
-        private const string checkoutBaseUrlProd = "http://192.168.0.100/checkout/Home/Process/";
+        private const string checkoutBaseUrlProd = "https://www.yenepay.com/checkout/Home/Process/";
         private const string checkoutBaseUrlSandbox = "https://test.yenepay.com/Home/Process/";
-        private const string ipnVerifyUrlProd = "http://192.168.0.100/api/api/verify/ipn/";
+        private const string ipnVerifyUrlProd = "https://endpoints.yenepay.com/api/verify/ipn/";
         private const string ipnVerifyUrlSandbox = "https://testapi.yenepay.com/api/verify/ipn/";
-        private const string pdtUrlProd = "http://192.168.0.100/api/api/verify/pdt/";
+        private const string pdtUrlProd = "https://endpoints.yenepay.com/api/verify/pdt/";
         private const string pdtUrlSandbox = "https://testapi.yenepay.com/api/verify/pdt/";
 
         private static HttpClient client = new HttpClient();
