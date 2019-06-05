@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Company>YenePay Financial Technologies P.L.C</Company>
+    <Authors>Sisay Getnet</Authors>
+    <Description>A dotnet core version of YenePaySdk</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://avatars2.githubusercontent.com/u/13527051?s=200&amp;v=4</PackageIconUrl>
+    <RepositoryUrl>https://github.com/YenePay/yenepay.sdk.dotnet.core</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <Copyright>Copyright © YenePay Financial Technologies P.L.C</Copyright>
+    <Product>YenePay.YenePaySDK.Core</Product>
+    <PackageProjectUrl>https://www.yenepay.com</PackageProjectUrl>
+    <Version>1.0.0</Version>
+    <PackageId>YenePay.YenePaySDK.Core</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="IPNModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
