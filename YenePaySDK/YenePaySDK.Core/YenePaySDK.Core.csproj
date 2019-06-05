@@ -17,7 +17,7 @@
     <PackageId>YenePay.YenePaySDK.Core</PackageId>
     <PackageTags>yenepay payment sdk online .net .netcore c#</PackageTags>
     <PackageReleaseNotes>The official port of yenepay payment sdk for .net core</PackageReleaseNotes>
-    <PackageLicenseExpression>https://github.com/YenePay/yenepay.sdk.dotnet.core/blob/master/LICENSE</PackageLicenseExpression>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
