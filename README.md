@@ -20,7 +20,7 @@ To do this, open your project in Visual Studio, right click on References node u
 The recommended way to install the latest version of the sdk is from nuget.org with the following Package Manager command
 
 ```
-Install-Package YenePay.YenePaySDK
+Install-Package YenePay.YenePaySDK.Core
 ```
 
 Step 2: Add a using reference to your class
